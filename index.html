@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button class="button" data-modal-open>Open</button>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal" >
+            <button class="close" data-modal-close>X</button>
+            <form action="">
+                <div class="row">
+                    <div class="group">
+                        <label for="">Ім'я</label>
+                        <input class="input" type="text">
+                    </div>  
+                    <div class="group">
+                        <label for="">Прізвище</label>
+                        <input class="input" type="text">
+                    </div>
+                </div>
+                    <div class="group email" >
+                        <label for="">Ел.Адреса</label>
+                        <input class="input imput-email"  type="email">
+                    </div>
+                    <div class="row">
+                    <div class="group">
+                        <label for="">Телефон</label>
+                        <input class="input" type="number">
+                    </div>
+                    <div class="group">
+                            <label for="">Адреса</label>
+                            <input class="input" type="text">
+                       </div>
+                    </div>
+                       <div class="group">
+                        <button class="button4">Надіслати</button>
+                       </div>
+                       <p class="nuz">Дякуємо, що надіслали.</p>
+            </form>
+        </div>
+    </div>
+<script src="./index.js"></script>
+</body>
+</html>

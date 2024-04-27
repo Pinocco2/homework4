@@ -1,0 +1,71 @@
+.button{
+    background: linear-gradient(90deg, rgb(0, 255, 204), rgb(111, 255, 0));
+    box-shadow: 5px 5px 50px rgba(174, 0, 255, 0.9);
+    width: 155px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    opacity: 1;
+}
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: linear-gradient(90deg, rgb(0, 255, 204), rgb(111, 255, 0));
+    min-height: 150px;
+    min-width: 280px;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+}
+form {
+    margin: auto;
+    
+
+}
+.group {
+    margin: 10px;
+    padding: 5px;
+    color:#c2b48e ;
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+
+}
+.input {
+    height: 45px;
+    width:  100%;
+    background-color: #b62e2e00;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.nuz {
+    text-align: center;
+    color: #c2b48e ;
+}
+.button4 {
+    height: 45px;
+    background-color: #ffffff00;
+    border-color:#c2b48e;
+    border: 0,5px;
+    color:#c2b48e ;
+    cursor: pointer;
+}
+.email {
+    width: 426px;
+    justify-content: center ;
+    
+}
